@@ -1,0 +1,35 @@
+{
+  "name": "nodejs_mysql",
+  "version": "1.0.0",
+  "description": "crud operation in mysql",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-rsr/nodejs_mysql.git"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "sequelize",
+    "express"
+  ],
+  "author": "Raj Aryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-rsr/nodejs_mysql/issues"
+  },
+  "homepage": "https://github.com/mr-rsr/nodejs_mysql#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.1",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.33.0"
+  }
+}
